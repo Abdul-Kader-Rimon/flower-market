@@ -128,6 +128,37 @@ padding-right: 80px;
     gap: 20px;
 }
 
+
+  /* flower and plants lover section */
+  .flower-plants-container{
+    max-width: 1440px;
+    margin: 100px auto;
+    align-items: center;
+    gap: 30px;
+    
+  }
+  .flower-plants-details{
+        max-width: 700px;
+        
+  }
+  .flower-plants-img {
+    max-width: 700px;
+    max-height: 600px;
+  }
+   .flower-plants-img img{
+       width: 700px;
+       height: 600px;
+   }
+
+  .flower-plants-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+  .flower-plants-description{
+    margin-top: 20px;
+    
+  }
 /* responsive for small device */
 
 @media screen and (max-width: 576px) {
@@ -167,6 +198,18 @@ padding-right: 80px;
                     gap: 5px;
                     
                 }
+
+                /*   flower and plants lover section */
+                                .flower-plants-container{
+                                    flex-direction: column;
+                                    
+                                }
+                             .flower-plants-img img{
+                                width: 100%;
+                             }
+                         .flower-plants-title{
+                                    text-align: center;
+                                  }
         
 }
 
@@ -199,5 +242,20 @@ padding-right: 80px;
               grid-template-columns: repeat(2, 1fr);
              gap: 15px;
           }
+
+
+            /*   flower and plants lover section */
+            .flower-plants-container {
+                flex-direction: column;
+
+            }
+
+            .flower-plants-img img {
+                width: 100%;
+            }
+
+            .flower-plants-title {
+                text-align: center;
+            }
         
 }
