@@ -137,7 +137,7 @@ padding-right: 80px;
   /* flower and plants lover section */
   .flower-plants-container{
     max-width: 1440px;
-    margin: 100px auto;
+    margin: 150px auto;
     align-items: center;
     gap: 30px;
     
@@ -154,6 +154,35 @@ padding-right: 80px;
        width: 700px;
        height: 600px;
    }
+/* trusted badge */
+.trusted-badge{
+    position: absolute;
+    max-width: 300px;
+    margin-top: calc(-720px);
+    margin-left: 530px;
+     
+}
+.trusted-badge img{
+width: 300px;
+height: 300px;
+animation: rotateBadge 7s linear infinite;
+}
+/* Keyframe animation for rotation */
+@keyframes rotateBadge {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.trusted-badge img {
+    width: 250px;
+    height: 250px;
+}
+
 
   .flower-plants-title{
     font-size: 3.125rem;
@@ -300,6 +329,8 @@ footer a{
     padding-top: 10px;
 }
 
+
+
 /* responsive for small device */
 
 @media screen and (max-width: 576px) {
@@ -384,6 +415,10 @@ footer a{
                   .footer-icon{
                     margin-left: 15px;
                   }
+                      /* badge */
+                      .badge-img {
+                          display: none;
+                      }
 }
 
 /* for medium device */
@@ -457,4 +492,11 @@ footer a{
                     padding: 20px;
         
                 }
+
+                /* badge */
+                .badge-img{
+                    display: none;
+                }
+
+
 }
